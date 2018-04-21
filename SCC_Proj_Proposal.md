@@ -37,7 +37,7 @@ Even though ‘Continuous Delivery’ is another term that is used in conjunctio
 
 Figure 1 A Venn diagram way to understand DevOps
   
-
+![](http://techtowntraining.com/sites/default/files/inline-images/solution-s-curve.png)
 
 Figure 2 DevOps vs Continuous Delivery
 
@@ -166,7 +166,7 @@ After all the analysis are done and processed, the ideal end-state from a DevOps
 
 The ideal end-state consists of the following after initial consultation with the client:
 
-
+![](https://photos.google.com/share/AF1QipOfnzJHBBxwPPh-MzcA0S1C5U3HfQ-V43S7zfcDheYrsAM05HV3u6L_HIredcV7vQ/photo/AF1QipPiVr8Mp4dNYqHFUcjazB0Mq98ysqs3LLyQORvK?key=ZG41SGdnRUJYbFZVV0JnbEpGTGl0SDBUV0pNTzVB)
  
 Figure 3 DevOps Process Ideal End-State
 
