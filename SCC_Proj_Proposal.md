@@ -32,7 +32,8 @@ The objective of the document is to describe the NTI460 Team strategy for implem
 DevOps can be defined as a culture or process or practice within an organization that increases the communication, collaboration and integration of the Development (which includes the QA team) and the Operations (IT Operations) teams. The aim is to automate and speed up the software delivery process defined by the client much more efficiently, frequently, and reliably.
  
 Even though ‘Continuous Delivery’ is another term that is used in conjunction with DevOps, there are some differences. The following diagram (Pic courtesy: collab.net) shows the relations:
- 
+
+![image of venn diagram for devops]
 (http://i.imgur.com/CXKuq.png)
 
 Figure 1 A Venn diagram way to understand DevOps
