@@ -33,8 +33,7 @@ DevOps can be defined as a culture or process or practice within an organization
  
 Even though ‘Continuous Delivery’ is another term that is used in conjunction with DevOps, there are some differences. The following diagram (Pic courtesy: collab.net) shows the relations:
 
-![image of venn diagram for devops]
-(http://i.imgur.com/CXKuq.png)
+![](http://i.imgur.com/CXKuq.png)
 
 Figure 1 A Venn diagram way to understand DevOps
   
