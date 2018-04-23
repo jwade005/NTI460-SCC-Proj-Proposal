@@ -88,7 +88,10 @@ To make any new feature, bug fixes, security patches to the customer ASAP, it is
 
 **vi.	Automate build of app environment**
 
-For a simple application, this is not much of a concern. But for most complex applications, setting up the run environment, like setting load balancer, databases, web server, network interconnectivity and all things operation oriented, it is better to have an automated way to build environment to reduce time to setup and also reduce any human errors. Infrastructure as a Service (IAAS) is used for this purpose. vii. Automate deployment of application 
+For a simple application, this is not much of a concern. But for most complex applications, setting up the running environment, such as setting up load balancers, databases, web servers, network interconnectivity and all things operation-oriented can be an unnecessary hassle. Automation is the way to go here, as it significantly cuts setup times, and reduces a large number of opportunities for human error. Infrastructure as a Service (IAAS) is used for this purpose. 
+
+**vii. Automate deployment of application** 
+
 In addition to above environment build automation, it is also very beneficial to have automation to deploy the application to the environment. This includes initializing the databases, initial setup of application, installation of dependencies and others. The automated build and deployment can be achieved through ‘Infrastructure as a code’ methodology.
 
 ### 2.5.DevOps Tools
@@ -172,12 +175,19 @@ Figure 3 DevOps Process Ideal End-State
 ## 4.0 Implementation of DevOps objectives
 
    i.	 Establishing code and software to build controller server, node cluster, and storage
+   
   ii.	 Doing the build 
+  
  iii.	 Deployment of networking requirements
+ 
   iv.	 Deploying the software to IBM Blade servers
+  
    v.	 Testing by the team (manual part, if not fully automated) 
+   
   vi.	 Monitoring of the servers
+  
  vii.	 Automation of all tasks possible
+ 
 viii.	 Final tests and presentation of deliverables
 
 ## 5.0 Project Hardware Resources
