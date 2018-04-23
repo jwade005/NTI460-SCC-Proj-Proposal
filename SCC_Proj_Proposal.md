@@ -55,12 +55,12 @@ The goals of DevOps are to make improvements across all components in the produc
 
 Companies that practice DevOps have reported significant benefits. Some of them are:
 
-Significantly shorter time-to-market 
-Improved customer satisfaction 
-Better product quality 
-More reliable releases 
-Improved productivity and efficiency 
-The increased ability to build the right product by fast experimentation 
+* Significantly shorter time-to-market 
+* Improved customer satisfaction 
+* Better product quality 
+* More reliable releases 
+* Improved productivity and efficiency 
+* The increased ability to build the right product by fast experimentation 
 
 ### 2.4.DevOps Practices 
 
@@ -103,10 +103,10 @@ The process steps you need to consider for tools support are:
 * Source Control 
 * Agile Planning 
 * Test Case Management 
-* Build automation 
-* Continuous deployment 
+* Build Automation 
+* Continuous Deployment 
 * Release Management 
-* Automated test scripts and Load Testing 
+* Automated Test Scripts and Load Testing 
 * Feedback Management 
 * Team Collaboration 
 * Lab Management 
@@ -129,9 +129,10 @@ CentOS is an open source Linux OS based on Red Hat Enterprise Linux.
 
 OpenStack software controls large pools of compute, storage, and networking resources throughout a datacenter, managed through a web based dashboard or via the OpenStack API. OpenStack works with popular enterprise and open source technologies making it ideal for diverse infrastructure.
 
-**Yaml Playbooks**
+**YAML Playbooks**
 
-2-3 playbooks with Openstack modules - yaml
+Playbooks are expressed in YAML format and have a minimum of syntax, which intentionally tries to not be a programming language or script, but rather a model of a configuration or a process. Each playbook is composed of one or more ‘plays’ in a list. The YAML playbooks will be used to automate the install of OpenStack to the Controller and Compute Nodes. 2-3 playbooks with OpenStack modules.
+
 
 **XenServer**
 
@@ -153,7 +154,7 @@ The NTI460 Team will engage the client and listed below are the steps the Team w
 
 ### 3.1 Understanding current situation
 
-The NTI460 Team will engage in conversation with the client and asses the current capabilities and the tools used, including hardware and software. This will be achieved through walkthroughs and Q&A sessions with the client as needed.
+The NTI460 Team will engage in conversation with the client and assess the current capabilities and the tools used, including hardware and software. This will be achieved through walkthroughs and Q&A sessions with the client as needed.
 
 ### 3.2 Finalizing the DevOps objectives
 
@@ -165,7 +166,7 @@ The current processes, tools, and systems used by the client will be documented 
 
 ### 3.4 Ideal end-state 
 
-After all the analysis are done and processed, the ideal end-state from a DevOps standpoint will be documented and presented. This will include the process and tools that will fit the client requirement. Some of the process will be: Code review process; Versioning best practice; Infrastructure recommendation to use of private cloud; and so on. 
+After all the analyses are completed and processed, the ideal end-state from a DevOps standpoint will be documented and presented. This will include the process and tools that will fit the client requirement. Some of the process will be: Code review process; Versioning best practice; Infrastructure recommendation to use of private cloud; and so on. 
 
 The ideal end-state consists of the following after initial consultation with the client:
 
@@ -174,32 +175,31 @@ Figure 3 DevOps Process Ideal End-State
 
 ## 4.0 Implementation of DevOps objectives
 
-   i.	 Establishing code and software to build controller server, node cluster, and storage
+1. Establishing code and software to build controller server, node cluster, and storage
    
-  ii.	 Doing the build 
+2. Doing the build 
   
- iii.	 Deployment of networking requirements
+3. Deployment of networking requirements
  
-  iv.	 Deploying the software to IBM Blade servers
+4. Deploying the software to IBM Blade servers
   
-   v.	 Testing by the team (manual part, if not fully automated) 
+5. Testing by the team (manual part, if not fully automated) 
    
-  vi.	 Monitoring of the servers
+6. Monitoring of the servers
   
- vii.	 Automation of all tasks possible
+7. Automation of all tasks possible
  
-viii.	 Final tests and presentation of deliverables
+8. Final tests and presentation of deliverables
 
 ## 5.0 Project Hardware Resources
 
 
-IBM Blade server, four from IBM Blade Center E
+5-6 Dell Worstations with Dual NIC Cards
  	
 * 1 as controller
-* 3 in cluster
-* local storage
-
-IBM SAN Storage
+* 3 in compute node cluster
+* 1 iSCSI storage node
+* (Possible) PXE Server
 
 SSH Server – LAMP Stack with DNS connection
 
@@ -214,13 +214,16 @@ Cisco Catalyst 2960s 48 Port Switch with Patch Panel
 * External
 * Storage
 
-Partition NICs on the server; NICs set to VLANs on each network
+Partition NICs on the Dell workstations; NICs set to VLANs on each network
 
 * 4 Logical Partitions on NICs
 
 Redundant links for high availability
 
+## Infrastructure Diagram
 
+![](https://lh3.googleusercontent.com/-tf0r8mQLSnk/Wt1hq_jnSeI/AAAAAAAAALI/lWOSP4zicpcZaxVeGIJ4SnwLlsePttC_gCJoC/w1060-h868-n/SCC_Proj_Infrastructure.png)
+Figure 4 SCC DevOps Infrastructure Diagram
 
 
 
