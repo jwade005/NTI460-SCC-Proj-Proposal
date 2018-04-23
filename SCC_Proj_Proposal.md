@@ -17,7 +17,12 @@ Jonathan Wade
 Michael J. Fraser |
 April 23, 2018
 
-
+<!-- toc -->
+- [1. Objective](#1-objective)
+- [2. DevOps Overview](#2-devops-overview)
+  * [2.1.What is DevOps](#21what-is-devops)
+    + [Figure 1: A Venn diagram way to understand DevOps](#figure-1-a-venn-diagram-way-to-understand-devops)
+    
 ## 1. Objective
 
 The objective of the document is to describe the NTI460 Team strategy for implementing and improving the DevOps practices and tools used across the various Development and Operations related processes defined by the client. The areas that are suitable for automation are identified and possible solutions for each area are described. This is subject to change based on discussions with the client.
@@ -35,7 +40,7 @@ Even though ‘Continuous Delivery’ is another term that is used in conjunctio
   <img src="http://i.imgur.com/CXKuq.png" alt="DevOps Venn Diagram" />
 </p>
 
-Figure 1: A Venn diagram way to understand DevOps
+#### Figure 1: A Venn diagram way to understand DevOps
 
 
 <p align="center">
