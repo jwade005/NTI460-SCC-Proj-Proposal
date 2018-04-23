@@ -166,20 +166,19 @@ After all the analysis are done and processed, the ideal end-state from a DevOps
 
 The ideal end-state consists of the following after initial consultation with the client:
 
-![](https://lh3.googleusercontent.com/bvcKlKLIlu-j0gm1EjIYcYUtYbpqGoSZ6YS0WRl5gkbUiRnuUIiUt4G2IVNL5QdVv9nLGomnQO9PDmJOUlJfz_G1312ENmecVdWqNrCCWMZJ5CZDbzlKmjHtz2QTOH6YQynpQFCFM-APUnxZjaf3iwpQLtE8LC8qu2Pbg1-QvEucDrbR1WA7Sa1feEr3l8wXpF7zBRv6CG-VVO3K19ZRWY7m1fHnF6u325cPUSJdHT2Odfl038N6zlb4qipb61a1q3vE6eRJ62yJzqEmCLjDDgD0Tp1Xr_j7OBgy2Z9V5ZBjgTA5dXgZuJc6secq_zJ2rOo9Eh9vcNC3I5eUMcldMoMbs-rmRqfQVIcTUvYOn9QSooL7aoZpnMgwgiTB9UehsHtgk95I4He-jrtm592yNCkA6YnKCifUnqTjM1tGU1YDZX9oKspXmwvF6p2hgPh7G_1lR-CECPAPWdoMTIqRSsYyCoBm6pDD0qaGibIWOJarw3ANfBB4HSn8lNlPNtAoSOONCiQKkvYz4uII6dft3ganjaKQPGdsLClbietKxN1YMt2x2IVcalmvRkfCtLACvQZbebmVpF4InsalGCH11F1iBVvdYgZ-jbxMC62btEz8kpONYM3kje3svY1bg6sEjwKRYxqZQdF6aY2tURTpD03ZPxJKAXFE=w899-h525-no)
-
+![](https://lh3.googleusercontent.com/-9H_KSW620Ek/Wt1cHAeib9I/AAAAAAAAAKI/_F8W1qqihnEcTc1d4-lUAb6KSsJ28i9ogCJoC/w1060-h732-n/Ideal_End_State.png)
 Figure 3 DevOps Process Ideal End-State
 
 ## 4.0 Implementation of DevOps objectives
 
-i.	Establishing code and software to build controller server, node cluster, and storage
-ii.	Doing the build 
-iii.	Deployment of networking requirements
-iv.	Deploying the software to IBM Blade servers
-v.	Testing by the team (manual part, if not fully automated) 
-vi.	Monitoring of the servers
-vii.	Automation of all tasks possible
-viii.	Final tests and presentation of deliverables
+   i.	 Establishing code and software to build controller server, node cluster, and storage
+  ii.	 Doing the build 
+ iii.	 Deployment of networking requirements
+  iv.	 Deploying the software to IBM Blade servers
+   v.	 Testing by the team (manual part, if not fully automated) 
+  vi.	 Monitoring of the servers
+ vii.	 Automation of all tasks possible
+viii.	 Final tests and presentation of deliverables
 
 ## 5.0 Project Hardware Resources
 
